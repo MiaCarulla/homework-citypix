@@ -29,6 +29,7 @@ $(function() {
 		else if(userInput === "SYDNEY" || userInput === "SYD"){
 			$('body').css('background', 'url(./images/sydney.jpg) no-repeat center 100% fixed');
 		}
+//How do I extend the image to fit the entire size of the screen? I tried 'cover' but it didn't work.
 
 	});
 });
